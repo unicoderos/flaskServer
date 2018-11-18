@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stocks</title>
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/stockPush.css" rel="stylesheet">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="/static/stockPush.js"></script>
+</head>
+<body>
+<div id="main-content">
+
+    <h1>Stock Market</h1>
+    <table class="table">
+
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Company</th>
+            <th>Price share</th>
+
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <th>1</th>
+            <td>Google</td>
+            <td><span id="google_price"> loading..</span></td>
+        </tr>
+
+        <tr>
+            <th>2</th>
+            <td>hotmail</td>
+            <td><span id="hotmail_price"> loading..</span></td>
+        </tr>
+
+        <tr>
+            <th>3</th>
+            <td>yahoo</td>
+            <td><span id="yahoo_price"> loading..</span></td>
+        </tr>
+
+        <tr>
+            <th>4</th>
+            <td>netflix</td>
+            <td><span id="netflix_price"> loading..</span></td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+</body>
+</html>
