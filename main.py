@@ -3,6 +3,7 @@ from flask_socketio import SocketIO
 from random import randint
 
 # init Flask
+# Starts the flask invocation
 app = Flask(__name__)
 socketio = SocketIO(app)
 thread = None
